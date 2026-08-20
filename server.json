@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/der_sp_indicacao-mcp",
+  "title": "DER SP: Indicação do Condutor Infrator",
+  "description": "DER SP: Indicação do Condutor Infrator, official-source lookup. Platform-hosted, pay per query with ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/der_sp_indicacao-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_der_sp_indicacao"
+    }
+  ]
+}
